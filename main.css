@@ -1,0 +1,10 @@
+body {
+    position: relative;
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+svg {
+    border: 1px solid lightgrey;
+}
