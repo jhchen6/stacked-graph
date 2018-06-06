@@ -3,16 +3,30 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Stream Graph</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-  <script src="main.js"></script>
+  <title>Streamgraph</title>
+  <style>
+    svg {
+      border: 1px solid lightgrey;
+    }
+    button {
+      position: absolute;
+      left: 20px;
+      top: 100px;
+    }
+  </style>
 </head>
 
 <body>
-  <svg width="960" height="500"></svg>
+  <h1>Streamgraph</h1>
+  <button>Update</button>
+  <svg></svg>
+  <p>This is a coding practice following
+    <a href="https://bost.ocks.org/mike/">Mike Bostock</a>'s
+    <a href="https://bl.ocks.org/mbostock/4060954">Streamgraph</a> example, using
+    <a href="https://d3js.org/">d3.js</a>.
+  </p>
+  <script src="../d3.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
